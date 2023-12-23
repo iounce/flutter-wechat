@@ -15,7 +15,7 @@ class HomeTabController extends GetxController
   ];
 
   final List<Widget> pages = <Widget>[
-    const WechatPage(),
+    WechatPage(),
     const ContactPage(),
     const DiscoveryPage(),
     const MinePage(),

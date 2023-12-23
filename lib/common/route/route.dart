@@ -26,7 +26,7 @@ class AppPages {
     ),
     GetPage(
       name: AppRoutes.wechatPage,
-      page: () => const WechatPage(),
+      page: () => WechatPage(),
     ),
     GetPage(
       name: AppRoutes.contactPage,

@@ -14,6 +14,7 @@ class WechatPage extends StatelessWidget {
         separatorBuilder: (context, index) {
           return Divider(
             color: Colors.grey[300],
+            height: 0.0,
           );
         },
         itemCount: _wechatController.chatList.length,

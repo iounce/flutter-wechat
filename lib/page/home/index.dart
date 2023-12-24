@@ -48,11 +48,11 @@ class HomePage extends StatelessWidget {
                   label: '通讯录'),
               BottomNavigationBarItem(
                   icon: Icon(
-                      Icons.camera,
+                      Icons.explore,
                       color: Colors.black
                   ),
                   activeIcon: Icon(
-                      Icons.camera,
+                      Icons.explore,
                       color: Colors.greenAccent
                   ),
                   label: '发现'),

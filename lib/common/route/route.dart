@@ -30,11 +30,11 @@ class AppPages {
     ),
     GetPage(
       name: AppRoutes.contactPage,
-      page: () => const ContactPage(),
+      page: () => ContactPage(),
     ),
     GetPage(
       name: AppRoutes.discoveryPage,
-      page: () => const DiscoveryPage(),
+      page: () => DiscoveryPage(),
     ),
     GetPage(
       name: AppRoutes.minePage,

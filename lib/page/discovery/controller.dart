@@ -5,32 +5,30 @@ import 'package:flutter_wechat/page/discovery/index.dart';
 import 'package:flutter_wechat/page/mine/index.dart';
 import 'package:flutter_wechat/page/wechat/index.dart';
 
-class HomeTabController extends GetxController
+class DiscoveryController extends GetxController
     with GetSingleTickerProviderStateMixin {
-  final List<String> titles = <String>[
-    "微信",
-    "通讯录",
-    "发现",
-    "",
+  final List<String> titleList = <String>[
+    "朋友圈",
+    "直播",
+    "扫一扫",
+    "看一看",
+    "搜一搜",
+    "附近",
+    "小程序",
   ];
 
-  final List<Widget> pages = <Widget>[
-    WechatPage(),
-    ContactPage(),
-    DiscoveryPage(),
-    const MinePage(),
+  final List<IconData> iconList = <IconData>[
+    Icons.camera,
+    Icons.videocam,
+    Icons.qr_code_scanner,
+    Icons.slideshow,
+    Icons.search,
+    Icons.near_me,
+    Icons.all_inclusive
   ];
-
-  dynamic title;
-  dynamic index;
-  dynamic page;
 
   @override
   Future<void> onInit() async {
     super.onInit();
-
-    index = 0.obs;
-    title = titles[0].obs;
-    page = pages[0].obs;
   }
 }

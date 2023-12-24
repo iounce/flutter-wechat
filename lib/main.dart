@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
-      title: 'Flutter Demo',
+      title: 'Flutter Wechat',
       theme: ThemeData(
         colorScheme: const ColorScheme.light(),
         useMaterial3: true,
